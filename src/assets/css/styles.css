@@ -1,0 +1,141 @@
+body {
+     background-color: black;
+}
+
+.backgroundHeader {
+     background-image: url("../images/banner-initial.png");
+     background-attachment: fixed;
+     background-position: center top;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.bannerContentPage {
+     align-items: flex-end;
+     min-height: 630px;
+}
+
+.backgroundContentPage {
+     background-image: url('../images/growcast-01.png');
+     background-position: center top;
+     background-size: cover;
+     background-repeat: no-repeat;
+     min-height: 737px;
+}
+
+
+.btn-vamosLa {
+     background-color: #e50914 ;
+     color: #ffffff;
+     padding: 20px 35px;
+     font-weight: 700;
+     font-size: 25px;
+}
+
+.btn-vamosLa:hover {
+     background-color: #b6060f;
+     color: #ffffff;
+}
+
+.divider-row {
+     border-bottom: 3px solid #515c6f;
+}
+
+.row-divider {
+     border-top: 3px solid #515c6f;
+}
+
+.accordionBorder {
+     border: 3px solid #000000;
+}
+
+.accordion-button {
+     background-color: #303030 !important;
+     color: #ffffff !important;
+     padding: 25px !important;
+     font-size: 26px;
+}
+
+.accordion-button::after {
+     background-image: url(../images/add.svg) !important;
+     
+}
+.accordion {
+     --bs-border-color: #303030 !important;
+}
+
+.accordion-body {
+     background-color: white !important;
+     
+}
+
+
+.txtColor {
+     color: #d63384 !important;
+}
+
+
+footer {
+     color: #757575;
+}
+
+.btnsHeader {
+     background-color: transparent;
+     border: none;
+     color:gray;
+}
+.btnsHeader:hover {
+     background-color: transparent;
+}
+
+.growEps {
+     background-color: transparent;
+     border: none;
+     color: #ffffff;
+     font-weight: bold;
+}
+
+.growEps:hover {
+     color: #ff8534;
+}
+
+.webnarEps {
+     background-color: transparent;
+     border: none;
+     color: #ffffff;
+     font-weight: bold;
+}
+.webnarEps:hover {
+     color: #ff8534;
+}
+
+.detail-movie {
+     color: white;
+     margin-left: 20px;
+     cursor: pointer;
+     display: none;
+}
+
+.detail-movie svg {
+     margin: 10px;
+}
+
+.hover-item{
+     transition: all 0.5s ease-out;
+}
+
+.hover-item:hover {
+     margin-top: -20px;
+     position: absolute;
+     width: 350px;
+     background-color: #000000;
+     padding-bottom: 20px;
+}
+
+.hover-item:hover .detail-movie {
+     display: block;
+}
+
+.modal-content-movie  {
+     background-color: transparent !important;
+} 

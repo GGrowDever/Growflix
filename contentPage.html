@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>GrowFlix - Todos os vídeos da Growdev em um só lugar.</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous" />
+		<link
+			rel="stylesheet"
+			href="./src/assets/css/styles.css" />
+	</head>
+	<body>
+		<header class="container-fluid backgroundContentPage">
+			<div class="row">
+				<div class="col">
+					<nav class="navbar navbar-expand-lg">
+						<div class="navbar-nav justify-content-center align-items-center ms-1">
+							<a
+								href="./index.html"
+								class="navbar-brand"
+								><img
+									src="./src/assets/images/logo-growflix.svg"
+									alt=""
+									srcset=""
+									width="120"
+									height="30"
+									class="d-inline-block align-text-top ms-2"
+							/></a>
+
+							<a
+								href="./index.html"
+								class="text-decoration-none text-light ms-2"
+								>Início</a
+							>
+
+							<a href="#gcEpisodes"><button class="btn btn-dark btnsHeader ms-1 text-white-50  ">Growcast[episódios]</button></a>
+							<a href="#wbEpisodes"><button class="btn btn-dark btnsHeader text-white-50">Webinar em Flutter</button></a>
+							<a href="#uxuiEpisodes"><button class="btn btn-dark btnsHeader text-white-50">Jornada UX/UI</button></a>
+							<a href="#dvEpisodes"><button class="btn btn-dark btnsHeader text-white-50">Diversos</button></a>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<section>
+				<div class="row bannerContentPage">
+					<div class="col-12">
+						<div class="container">
+							<div class="row">
+								<div class="col-12">
+									<span class="text-light fw-bold ms-5">
+										<small>PODCAST</small>
+									</span>
+									<p class="display-1 fw-bold text-light ms-5">GROWCAST</p>
+								</div>
+								<div class="col-12 pb-5">
+									<button
+										type="button"
+										class="btn btn-light fw-bold ms-5"
+										data-link="https://www.youtube.com/embed/7OWT3lfHYvE"
+										onclick="openCardMovie(this)">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="16"
+											height="16"
+											fill="currentColor"
+											class="bi bi-caret-right-fill"
+											viewBox="0 0 16 16">
+											<path
+												d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+										</svg>
+										Assistir
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</header>
+		<main class="container-fluid">
+			<section>
+				<div
+					class="row"
+					id="gcEpisodes">
+					<div class="col-12">
+						<div class="container">
+							<div
+								class="row mt-2"
+								id="growcast">
+								<div class="col-12">
+									<p class="fs-5">
+										<button class="growEps">
+											Growcast [Episódios]
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												width="16"
+												height="16"
+												fill="currentColor"
+												class="bi bi-caret-right-fill"
+												viewBox="0 0 16 16">
+												<path
+													d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+											</svg>
+										</button>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div
+					class="row"
+					id="wbEpisodes">
+					<div class="col-12">
+						<div class="container">
+							<div
+								class="row"
+								id="webinar">
+								<div class="col-12">
+									<p class="fs-5">
+										<button class="growEps">
+											Webinar em Flutter
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												width="16"
+												height="16"
+												fill="currentColor"
+												class="bi bi-caret-right-fill"
+												viewBox="0 0 16 16">
+												<path
+													d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+											</svg>
+										</button>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div
+					class="row"
+					id="uxuiEpisodes">
+					<div class="col-12">
+						<div class="container">
+							<div
+								class="row"
+								id="ux-ui">
+								<div class="col-12">
+									<p class="fs-5">
+										<button class="growEps">
+											Jornada UX/UI
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												width="16"
+												height="16"
+												fill="currentColor"
+												class="bi bi-caret-right-fill"
+												viewBox="0 0 16 16">
+												<path
+													d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+											</svg>
+										</button>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div
+					class="row"
+					id="dvEpisodes">
+					<div class="col-12">
+						<div class="container">
+							<div
+								class="row"
+								id="diversos">
+								<div class="col-12">
+									<p class="fs-5">
+										<button class="growEps">
+											Diversos
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												width="16"
+												height="16"
+												fill="currentColor"
+												class="bi bi-caret-right-fill"
+												viewBox="0 0 16 16">
+												<path
+													d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+											</svg>
+										</button>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="container-fluid ">
+			<div class="row row-divider">
+				<div class="col-12">
+					<div class="container">
+						<div class="row">
+							<div class="col-12 pt-5">Dúvidas? Ligue 0800 591 8942</div>
+							<div class="col-6 col-sm-3 pt-5">
+								<a href="#faq">
+									<p class="small"><button class="btnsHeader">Perguntas frequentes</button></p>
+								</a>
+								<a href="#">
+									<p class="small"><button class="btnsHeader">Relações com investidores</button></p>
+								</a>
+								<a href="#www">
+									<p class="small"><button class="btnsHeader">Formas de assistir</button></p>
+								</a>
+								<a href="#">
+									<p class="small"><button class="btnsHeader">Informações corporativas</button></p>
+								</a>
+								<a href="#">
+									<p class="small"><button class="btnsHeader">Só na Growflix</button></p>
+								</a>
+							</div>
+							<div class="col-6 col-sm-3 pt-5">
+								<a href="#">
+									<p class="small"><button class="btnsHeader">Central de Ajuda</button></p>
+								</a>
+								<a href="#">
+									<p class="small"><button class="btnsHeader">Carreiras</button></p>
+								</a>
+								<a href="#">
+									<p class="small"><button class="btnsHeader">Termos de Uso</button></p>
+								</a>
+								<a href="#">
+									<p class="small"><button class="btnsHeader">Entre em contato</button></p>
+								</a>
+							</div>
+							<div class="col-6 col-sm-3 pt-5">
+								<a href="#">
+									<p class="small"><button class="btnsHeader">Conta</button></p>
+								</a>
+								<a href="#">
+									<p class="small"><button class="btnsHeader">Resgatar cartão pré-pago</button></p>
+								</a>
+								<a href="#">
+									<p class="small"><button class="btnsHeader">Privacidade</button></p>
+								</a>
+								<a href="#">
+									<p class="small"><button class="btnsHeader">Teste de velocidade</button></p>
+								</a>
+							</div>
+							<div class="col-6 col-sm-3 pt-5">
+								<a href="#">
+									<p class="small"><button class="btnsHeader">Media Center</button></p>
+								</a>
+								<a href="#">
+									<p class="small"><button class="btnsHeader">Comprar cartão pré-pago</button></p>
+								</a>
+								<a href="#">
+									<p class="small"><button class="btnsHeader">Preferências de cookies</button></p>
+								</a>
+								<a href="#">
+									<p class="small"><button class="btnsHeader">Avisos legais</button></p>
+								</a>
+							</div>
+							<div class="col-12 pt-5 pb-5">Growflix Growdev</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div
+			class="modal fade"
+			id="modal-content"
+			tabindex="-1"
+			aria-labelledby="modal-content-label"
+			aria-hidden="true">
+			<div class="modal-dialog modal-fullscreen">
+				<div class="modal-content modal-content-movie">
+					<div class="modal-header modal-header-movie">
+						<div></div>
+						<button
+							type="button"
+							class="btn btn-dark"
+							data-bs-dismiss="modal"
+							aria-label="Close">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="45"
+								height="45"
+								fill="white"
+								class="bi bi-x-lg"
+								viewBox="0 0 16 16">
+								<path
+									d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+							</svg>
+						</button>
+					</div>
+					<div
+						class="ratio ratio-21x9 w-100 h-100 mb-5 "
+						id="iframe"></div>
+				</div>
+			</div>
+		</div>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+			crossorigin="anonymous"></script>
+		<script src="./src/assets/js/data.js"></script>
+		<script src="./src/assets/js/scripts.js"></script>
+	</body>
+</html>
