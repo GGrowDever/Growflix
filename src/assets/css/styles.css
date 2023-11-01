@@ -111,7 +111,7 @@ footer {
 
 .detail-movie {
      color: white;
-     margin-left: 20px;
+     /* margin-left: 20px; */
      cursor: pointer;
      display: none;
 }
@@ -120,20 +120,27 @@ footer {
      margin: 10px;
 }
 
-.hover-item{
-     transition: all 0.5s ease-out;
+.modalMovie {
+     position: relative !important;
 }
 
-.hover-item:hover {
-     margin-top: -20px;
-     position: absolute;
-     width: 350px;
-     background-color: #000000;
-     padding-bottom: 20px;
+
+.modalMovie:hover {
+     scale: 1.2;
+     z-index: 1;
+     transition: 0.3s;
 }
 
-.hover-item:hover .detail-movie {
-     display: block;
+.modalMovie:hover .detail-movie {
+     width: 310px;
+     display: block !important;
+     position: absolute !important;
+     transform: translate(0, 100px);
+     z-index: 1;
+     bottom: 0;
+
+     background-color: black;
+
 }
 
 .modal-content-movie  {
